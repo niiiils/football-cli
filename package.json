@@ -4,11 +4,16 @@
   "description": "A CLI for hackers & football players.",
   "main": "index.js",
   "dependencies": {
+    "ascii-art": "^1.5.1",
+    "canvas": "^2.6.0",
     "chalk": "^2.4.2",
+    "cli-progress": "^3.1.0",
+    "cli-table": "^0.3.1",
     "require-dir": "^1.2.0",
     "shelljs": "^0.8.3",
     "sk": "^0.0.8",
     "sl": "^0.0.6",
+    "unirest": "^0.6.0",
     "yargs": "^14.0.0"
   },
   "devDependencies": {},

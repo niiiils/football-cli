@@ -3,8 +3,7 @@ const standings = require('../commands/standings.js');
 
 exports.handle = function handle(args) {
     let command = args._[0];
-        
-    console.log('handling ' + args._[0]);
+
     if(command != undefined) {
         if (command == news.command) {
             news.showNews();
