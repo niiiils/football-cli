@@ -1,0 +1,36 @@
+{
+  "name": "football-cli",
+  "version": "1.0.0",
+  "description": "A CLI for hackers & football players.",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "require-dir": "^1.2.0",
+    "shelljs": "^0.8.3",
+    "sk": "^0.0.8",
+    "sl": "^0.0.6",
+    "yargs": "^14.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niiiils/football-cli.git"
+  },
+  "keywords": [
+    "american",
+    "football",
+    "cli"
+  ],
+  "author": "Nils Fahrni",
+  "license": "ISC",
+  "bin": {
+    "football": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/niiiils/football-cli/issues"
+  },
+  "homepage": "https://github.com/niiiils/football-cli#readme"
+}
